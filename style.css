@@ -13,6 +13,7 @@
     width: 100%;
     height: 100%;
     background-color: #04283C;
+    font-family: 'Roboto', sans-serif;
 }
 
 .app-box {
@@ -21,4 +22,13 @@
     border-radius: 20px;
     background-color: white;
     color: #04283C;
+}
+
+.location-box {
+    background: linear-gradient(navy, rgb(247, 247, 247));
+    color: white;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }

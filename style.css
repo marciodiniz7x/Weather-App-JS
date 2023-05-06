@@ -17,18 +17,74 @@
 }
 
 .app-box {
-    width: 550px;
+    width: 450px;
     height: 700px;
-    border-radius: 20px;
+    border-radius: 50px;
+
     background-color: white;
     color: #04283C;
 }
 
 .location-box {
-    background: linear-gradient(navy, rgb(247, 247, 247));
-    color: white;
-    border: 1px solid;
+    margin-top: 10px;
+    /* background: linear-gradient(#008cff, white); */
+    color: #092941;
+    border-radius: 50px 50px 0 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+
+    flex-wrap: wrap;
     padding: 20px;
+    height: 300px;
 }
+
+    .location-icon {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .pais {
+        margin-top: 5px;
+        height: 40px;
+        width: 300px;
+        background: none;
+        border: none;
+        display: inline-block;
+        margin-left: 10px;
+        color: #092941;
+    
+        font-size: 25px;
+        font-weight: 100;
+    }
+    .pais::placeholder {
+        color: #092941;
+        
+        font-size: 25px;
+        font-weight: 100;
+    }
+    .pais:focus {
+        outline: none;
+    }
+
+    .pesquisa {
+        font-size: 35px;
+        background-color: rgb(225, 241, 247);
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        
+    }
+
+    .ceu-figura {
+        background-image: url(img/cloud.png);
+        background-position: center;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+ 
+        flex-basis: 60%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
